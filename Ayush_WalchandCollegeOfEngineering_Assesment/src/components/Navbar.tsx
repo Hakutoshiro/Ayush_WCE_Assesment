@@ -43,7 +43,7 @@ export default function NavbarComponent() {
                 </NavbarItem>
             </NavbarContent>
 
-            <NavbarMenu className="bg-background text-foreground">
+            <NavbarMenu className="bg-bkgrd text-foreground" >
                 <NavbarMenuItem  >
                     <Link
                         className="w-full"

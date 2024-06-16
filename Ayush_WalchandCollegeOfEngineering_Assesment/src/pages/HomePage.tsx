@@ -13,7 +13,7 @@ export default function HomePage() {
       <div className=" grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 w-full sm:w-12/12 md:w-2/3 h-auto  pb-4 sm:mx-auto gap-5 justify-center">
         {
           products.map((product, index) => (
-            <Card shadow="sm" isPressable className="w-[300px]  mx-auto hover:bg-gradient-to-r from-primary-200 to-primary-500 group" key={index}>
+            <Card shadow="sm" isPressable className="w-11/12  mx-auto hover:bg-gradient-to-r from-primary-200 to-primary-500 group" key={index}>
               <CardBody className="w-full object-contain ">
                 <img src={imgSrc} alt="Image" className=""/>
               </CardBody>
